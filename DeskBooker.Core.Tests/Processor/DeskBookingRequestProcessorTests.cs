@@ -104,7 +104,7 @@ namespace DeskBooker.Core.Processor
 
 
         [Fact]
-        public void ShouldNotSaveDeskBookingIfNoDeskIsAvailable()
+        public void ShouldNotSaveDeskBookingIfNoDeskIsNotAvailable()
         {
             // TODO: Ensure that no desk is available
             _availableDesks.Clear();
